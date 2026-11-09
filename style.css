@@ -89,3 +89,35 @@ ol {
     gap: 20px;
     align-items: start;
 }
+
+
+
+
+/* LISAÜLESANNE */
+
+h1 {
+    transition: transform 0.3s ease;
+}
+
+h1:hover {
+    transform: scale(1.1);
+}
+
+
+table {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+table:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+ul {
+    transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+ul:hover {
+    border-color: rgb(129, 70, 50);
+    transform: scale(1.03);
+}
