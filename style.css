@@ -25,3 +25,13 @@ body {
     padding: 30px;
     text
 }
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid rgb(238, 101, 21);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
