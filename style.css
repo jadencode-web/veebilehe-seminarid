@@ -4,3 +4,17 @@ h1 {
     text-align: center;
     font-family: Arial, sans-serif;
 }
+
+h2 {
+    color: rgb(238, 101, 21);
+    font-size: 28px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    color: rgb(129, 70, 50);
+    font-size: 18px;
+    text-align: center;
+    font-family: Sans-serif;
+}
