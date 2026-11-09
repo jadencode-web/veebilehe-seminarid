@@ -16,7 +16,7 @@ p {
     color: rgb(129, 70, 50);
     font-size: 18px;
     text-align: center;
-    font-family: Sans-serif;
+    font-family: Georgia, serif;
 }
 
 body {
@@ -48,8 +48,8 @@ table {
 }
 
 ul {
-    list-style-type: none;
-    padding: 0;
+    list-style-position: inside;
+    padding: 15px;
     margin: 20px auto;
     width: 80%;
     font-family: Arial, sans-serif;
@@ -76,4 +76,16 @@ th {
     background-color: rgb(238, 101, 21);
     color: white;
     font-size: 18px;
+}
+
+ol {
+    list-style-position: inside;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: start;
 }
